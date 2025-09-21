@@ -16,7 +16,59 @@
 </head>
 <body>
     <div class="container">
-        
+        <div class="row" style="border-bottom: 5px dotted white;">
+            <div class="col-8">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Products</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-4 text-white">
+                <h3 style="float: right;   text-shadow: 1px 1px 10px blue;">Sky World</h3>
+            </div>
+        </div>
+        <div class="row text-white p-3"  style="border-bottom: 5px dotted white ;">
+            <div class="col-6">
+                <div class="row ">
+                    <h3>
+                        Registration Information
+                    </h3>
+                    <p>
+                        Start your travel planning now with our on-line tour regstration
+                        form. Just tell us a little about yourself and your group and one of our travel
+                        experts will contact  you  to create the perfect custom built for your group's needs .
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-5 ps-5">
+                        <label for="">Title</label> <br>
+                        <label for="">Full Name*</label> <br>
+                        <label for="">Mailing Address</label> <br>
+                        <label for="">City</label> <br>
+                        <label for="">Country</label> <br>
+                        <label for="">Specific questions or requests about your tour</label> <br>
+                    </div>
+                    <div class="col-5">
+                        <select name="Title" id="Title">
+                            <option value="Mr">Mr</option>
+                            <option value="Mrs">Mrs</option>
+                        </select> <br>
+                        <input type="text" style="height: 20px;" placeholder="First Name"> <br>
+                        <input type="text" style="height: 20px;" placeholder="Mailing Address"> <br>
+                        <input type="text" style="height: 20px;" placeholder="City"> <br>
+                        <input type="text" style="height: 20px;" placeholder="Country">
+                        <textarea name="text" id="text" placeholder="Specific questions or reuests about your tour" cols="23" rows="5">
+Specific questions or requests about your tour
+                        </textarea>
+                        <button type="submit" >Submit</button>
+                        <button type="submit" >Reset</button>
+                    </div>
+
+                </div>
+            </div>
     </div>
 </body>
 </html>
