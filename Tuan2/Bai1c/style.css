@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #A22222;
+    font-style: italic;
+    text-shadow: 0 20px 20px #A22222;
+    margin: 20px 0;
+}
+#header {
+    display: flex;
+    justify-content: space-between; /* menu trái + search phải */
+    align-items: center;
+    background-color: #EB9696;
+    border: 0.5px solid #A72C2C;
+    padding: 5px 20px;
+}
+
+#search-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#main-content {
+    display: flex;
+    min-height: 500px;
+}
+
+#sidebar {
+    flex-basis: 30%;
+}
+#sidebar li {
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(235, 150, 150);
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    width: 220px;
+}
+
+#sidebar img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: block;
+
+}
+
+#content {
+    flex-basis: 40%;
+}
+
+#content h2 {
+    padding: 5px;
+    margin: 5px;
+    background: rgb(235, 150, 150);
+    color: rgb(162, 37, 37);
+    letter-spacing: 15px;
+    width: 330px;
+    margin-left: 70px;
+}
+
+#content input {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#sidebar2 {
+    flex-basis: 30%;
+    background-color: #000;
+    height: 600px;
+}
+
+#sidebar2 h3,
+#sidebar2 img {
+    display: block;
+    padding-left: 30px;
+}
+
+#sidebar2 p {
+    padding: 0 30px 0 30px;
+    text-align: justify;
+}
+
+#footer {
+    background:rgb(235, 150, 150);
+    margin-top: 10px;
+    padding: 15px 0px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    color: #fff;
+}
